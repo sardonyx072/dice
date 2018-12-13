@@ -3,8 +3,8 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 public class DiscreteFunction {
-	private long[] vals;
-	private int zero;
+	protected long[] vals;
+	protected int zero;
 	
 	public DiscreteFunction (long[] vals, int zero) {
 		int start = 0, end = vals.length;
